@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+venv/
+
+# Power BI
+*.pbix.autosave
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
