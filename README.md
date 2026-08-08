@@ -1,182 +1,103 @@
 # 📊 Student Performance Analytics Dashboard
 
-<p align="center">
+A business intelligence and data analytics project designed to analyze student academic performance, identify performance patterns, and present actionable insights through an interactive Power BI dashboard.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-</p>
+The project demonstrates practical capabilities in **data analysis, KPI development, dashboard design, performance monitoring, and business intelligence reporting** within an educational analytics context.
 
 ---
 
-# 📌 Project Overview
+## 🎯 Project Overview
 
-The Student Performance Analytics Dashboard is an end-to-end educational analytics solution designed to monitor student academic performance, identify learning trends, evaluate subject-wise strengths and weaknesses, and support data-driven decision making.
+Educational institutions generate large volumes of student performance data that can be difficult to interpret through raw datasets alone.
 
-The project demonstrates how Python, SQL, Excel, and Power BI can be combined to transform raw educational data into actionable business intelligence.
+This project transforms structured student performance data into an interactive analytics dashboard that enables users to monitor key academic indicators, compare performance across categories, and identify trends that can support data-driven decision-making.
 
----
-
-# 🎯 Objectives
-
-- Analyze student academic performance
-- Monitor overall institutional performance
-- Identify high-risk students
-- Compare subject-wise achievements
-- Build KPI dashboards
-- Improve academic planning
-- Support faculty decision-making
+The dashboard is designed as a portfolio project to demonstrate practical **Power BI and Business Intelligence capabilities**.
 
 ---
 
-# 📊 Dashboard Features
+## 📈 Dashboard Highlights
 
-✅ Student Performance Overview
+The dashboard focuses on key academic performance indicators, including:
 
-✅ Subject-wise Analysis
-
-✅ Class-wise Performance
-
-✅ Overall Pass Percentage
-
-✅ Highest & Lowest Scorers
-
-✅ Attendance Insights
-
-✅ Student Ranking
-
-✅ Trend Analysis
-
-✅ Performance Distribution
-
----
-
-# 📈 Key Performance Indicators (KPIs)
-
-- Overall Average Score
+- Total Student Count
+- Average Score
 - Pass Percentage
-- Fail Percentage
-- Attendance %
-- Subject Average
-- Top Performing Class
-- Lowest Performing Class
-- Highest Score
-- Lowest Score
-- Improvement Trend
+- Average Study Hours
+- Completion Rate
+- Performance Distribution
+- Subject-wise Performance
+- Performance Trends
+- Department-wise Performance
+- Attendance vs. Performance
+- Top Performing Students
 
 ---
 
-# 🛠 Tech Stack
+## 🔍 Key Analytics
 
-| Technology | Usage |
-|------------|-------|
-| Python | Data Cleaning |
-| Pandas | Data Analysis |
-| SQL | Data Extraction |
-| Power BI | Dashboard Development |
-| Excel | Reporting |
-| GitHub | Version Control |
+### Student Performance Analysis
 
----
+Analyze student scores and performance categories to understand overall academic outcomes.
 
-# 📂 Project Structure
+### Subject-wise Analysis
 
-```
-student-performance-analytics-dashboard/
-│
-├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
-│
-├── dashboard/
-│   └── Student Dashboard.pbix
-│
-├── notebooks/
-│   └── data_analysis.ipynb
-│
-├── images/
-│   ├── dashboard.png
-│   └── workflow.png
-│
-├── README.md
-└── LICENSE
-```
+Compare average performance across different subjects to identify stronger and weaker academic areas.
+
+### Department-wise Analysis
+
+Evaluate performance across departments and identify variations in academic outcomes.
+
+### Performance Trends
+
+Track changes in student performance over time to identify improvement or decline patterns.
+
+### Attendance & Performance
+
+Analyze the relationship between attendance and academic performance.
+
+### Top Performers
+
+Identify high-performing students based on academic performance metrics.
 
 ---
 
-# 🔄 Workflow
+## 🎛️ Dashboard Interactivity
 
-Raw Data
+The dashboard supports interactive filtering and exploration through controls such as:
 
-↓
+- Academic Year
+- Semester
+- Department
+- Section
 
-Data Cleaning
-
-↓
-
-Data Validation
-
-↓
-
-Data Analysis
-
-↓
-
-KPI Calculation
-
-↓
-
-Dashboard Development
-
-↓
-
-Business Insights
+These filters allow users to dynamically explore different segments of the student population.
 
 ---
 
-# 📷 Dashboard Preview
+## 🖥️ Dashboard Preview
 
-> *(Dashboard screenshot will be added here.)*
+### Power BI Dashboard Overview
 
-```
-images/dashboard.png
-```
+![Power BI Dashboard Overview](dashboard/Power_BI_Dashboard_Overview.png)
 
----
+### Dashboard Screenshots
 
-# 📊 Sample Insights
+![Dashboard Overview](images/dashboard-overview.png)
 
-- Students scoring below 40% require intervention.
-- Mathematics recorded the lowest average score.
-- Attendance above 90% strongly correlates with academic success.
-- Class A achieved the highest overall average.
+![Performance Analysis](images/performance-analysis.png)
 
----
+![Power BI Dashboard](images/powerbi-dashboard.png)
 
-# 🚀 Future Improvements
-
-- AI-based Performance Prediction
-- Student Risk Prediction
-- Attendance Forecasting
-- Automated Report Generation
-- Email Alerts
-- LLM-powered Academic Assistant
+![Student Overview](images/student-overview.png)
 
 ---
 
-# 👨‍💻 Author
+## 📄 Dashboard Report
 
-**Monesh R**
+A PDF version of the dashboard/report is included for convenient review.
 
-AI/ML Engineer | Data Analyst | AI Data Quality Specialist
+**Location:**
 
-GitHub:
-https://github.com/Mo-nesh
-
-LinkedIn:
-https://linkedin.com/in/moneshr
-
-Email:
-moneshmuddu@gmail.com
+```text
+dashboard/Student_Performance_Dashboard.pdf
